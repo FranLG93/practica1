@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+   }
+
+   h1{
+    margin-top: 25px;
+    text-align: left;
+    font-size: 30px;
+   }
+
+   h4{
+    color: rgb(128, 128, 128);
+   }
+.barra {
+    background: rgb(131,58,180);
+    background: linear-gradient(114deg, rgb(184, 189, 216) 0%, rgb(65, 46, 210) 50%, rgb(184, 189, 216) 100%);
+    color: white;
+    margin-top: 25px;
+
+
+}
+
+.barra2:hover{
+    background-color: #487bd3;
+
+}
+
+.listaizq {
+    width: 20%;
+    float: left; 
+    padding: 20px;
+    background: radial-gradient(circle, rgb(219, 220, 228) 0%, rgb(255, 255, 255) 100%);
+    margin: 52px ;
+    border-radius: 15px;
+}
+
+a:hover {
+    background-color: #487bd3;
+  
+  
+}
+
+a {
+    text-decoration: none;
+}

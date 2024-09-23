@@ -1,4 +1,4 @@
-/* Estilos generales para el cuerpo */
+
 body {
     font-family: Arial, sans-serif;
    }
@@ -16,7 +16,14 @@ body {
 
 
 }
+h4{
+    color: rgb(128, 128, 128);
+   }
 
+.barra2:hover{
+    background-color: #487bd3;
+
+}
 
 .listaizq {
     width: 20%;
@@ -27,35 +34,12 @@ body {
     border-radius: 15px;
 }
 
-main {
-    width: 100%; 
-    padding: 20px;
-    float: right;
-   
-}
-table {
-    width: 50%; 
-    float: right;
-    margin-right: 150px;
-    border-collapse: collapse;
-    margin-top: -250px;
+a:hover {
+    background-color: #487bd3;
+  
+  
 }
 
-table, th, td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-.lista {
-    list-style-type: none;
-    padding: 0;
-}
-
-.lista li {
-    margin-bottom: 10px;
+a {
+    text-decoration: none;
 }
